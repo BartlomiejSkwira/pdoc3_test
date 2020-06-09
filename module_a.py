@@ -7,6 +7,7 @@ module_variable = 100
 This is a docstring for module_variable
 """
 
+
 class Foo:
     """
     This is a docstring of class Foo
