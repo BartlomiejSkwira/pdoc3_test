@@ -2,11 +2,6 @@
 This is a docstring for module_a
 """
 
-module_variable = 100
-"""
-This is a docstring for module_variable
-"""
-
 
 class Foo:
     """
