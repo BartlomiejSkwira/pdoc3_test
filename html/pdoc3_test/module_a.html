@@ -65,6 +65,16 @@ class Foo:
         &#34;&#34;&#34;
         This is a docstring for __name_mangled_method
         :return:
+        &#34;&#34;&#34;
+
+
+class InheritedFoo(Foo):
+    pass
+
+    def foo_method(self):
+        &#34;&#34;&#34;
+        This is an inherited docstring for foo_method
+        :return:
         &#34;&#34;&#34;</code></pre>
 </details>
 </section>
@@ -123,6 +133,10 @@ class Foo:
         :return:
         &#34;&#34;&#34;</code></pre>
 </details>
+<h3>Subclasses</h3>
+<ul class="hlist">
+<li><a title="pdoc3_test.module_a.InheritedFoo" href="#pdoc3_test.module_a.InheritedFoo">InheritedFoo</a></li>
+</ul>
 <h3>Class variables</h3>
 <dl>
 <dt id="pdoc3_test.module_a.Foo.class_variable"><code class="name">var <span class="ident">class_variable</span></code></dt>
@@ -177,6 +191,59 @@ class Foo:
 </dd>
 </dl>
 </dd>
+<dt id="pdoc3_test.module_a.InheritedFoo"><code class="flex name class">
+<span>class <span class="ident">InheritedFoo</span></span>
+</code></dt>
+<dd>
+<div class="desc"><p>This is a docstring of class Foo</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class InheritedFoo(Foo):
+    pass
+
+    def foo_method(self):
+        &#34;&#34;&#34;
+        This is an inherited docstring for foo_method
+        :return:
+        &#34;&#34;&#34;</code></pre>
+</details>
+<h3>Ancestors</h3>
+<ul class="hlist">
+<li><a title="pdoc3_test.module_a.Foo" href="#pdoc3_test.module_a.Foo">Foo</a></li>
+</ul>
+<h3>Methods</h3>
+<dl>
+<dt id="pdoc3_test.module_a.InheritedFoo.foo_method"><code class="name flex">
+<span>def <span class="ident">foo_method</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>This is an inherited docstring for foo_method
+:return:</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def foo_method(self):
+    &#34;&#34;&#34;
+    This is an inherited docstring for foo_method
+    :return:
+    &#34;&#34;&#34;</code></pre>
+</details>
+</dd>
+</dl>
+<h3>Inherited members</h3>
+<ul class="hlist">
+<li><code><b><a title="pdoc3_test.module_a.Foo" href="#pdoc3_test.module_a.Foo">Foo</a></b></code>:
+<ul class="hlist">
+<li><code><a title="pdoc3_test.module_a.Foo.bar_method" href="#pdoc3_test.module_a.Foo.bar_method">bar_method</a></code></li>
+<li><code><a title="pdoc3_test.module_a.Foo.class_variable" href="#pdoc3_test.module_a.Foo.class_variable">class_variable</a></code></li>
+<li><code><a title="pdoc3_test.module_a.Foo.instance_var_1" href="#pdoc3_test.module_a.Foo.instance_var_1">instance_var_1</a></code></li>
+</ul>
+</li>
+</ul>
+</dd>
 </dl>
 </section>
 </article>
@@ -200,6 +267,12 @@ class Foo:
 <li><code><a title="pdoc3_test.module_a.Foo.class_variable" href="#pdoc3_test.module_a.Foo.class_variable">class_variable</a></code></li>
 <li><code><a title="pdoc3_test.module_a.Foo.foo_method" href="#pdoc3_test.module_a.Foo.foo_method">foo_method</a></code></li>
 <li><code><a title="pdoc3_test.module_a.Foo.instance_var_1" href="#pdoc3_test.module_a.Foo.instance_var_1">instance_var_1</a></code></li>
+</ul>
+</li>
+<li>
+<h4><code><a title="pdoc3_test.module_a.InheritedFoo" href="#pdoc3_test.module_a.InheritedFoo">InheritedFoo</a></code></h4>
+<ul class="">
+<li><code><a title="pdoc3_test.module_a.InheritedFoo.foo_method" href="#pdoc3_test.module_a.InheritedFoo.foo_method">foo_method</a></code></li>
 </ul>
 </li>
 </ul>

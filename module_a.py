@@ -39,3 +39,17 @@ class Foo:
         This is a docstring for __name_mangled_method
         :return:
         """
+
+
+class InheritedFoo(Foo):
+    pass
+
+    def foo_method(self):
+        """
+        This is an inherited docstring for foo_method
+        :return:
+        """
+
+    def some_meth(self):
+        """Test"""
+        pass
