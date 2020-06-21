@@ -1,6 +1,5 @@
 # FYI: This module and class intentionally has no docstrings.
 
-
 module_variable = 1
 
 
@@ -13,10 +12,10 @@ class NoDocStrings:
     def foo(self):
         pass
 
-    def _private_foo(self):
+    def _private_method(self):
         pass
 
-    def __name_mangled_function(self):
+    def __name_mangled_method(self):
         pass
 
 

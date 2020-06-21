@@ -42,14 +42,10 @@ class Foo:
 
 
 class InheritedFoo(Foo):
-    pass
 
     def foo_method(self):
-        """
-        This is an inherited docstring for foo_method
-        :return:
-        """
+        pass
 
-    def some_meth(self):
-        """Test"""
+    def bar_method(self):
+        """This is an overwritten docstring for bar_method"""
         pass
